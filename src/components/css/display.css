@@ -1,0 +1,12 @@
+.Display {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(39, 39, 39);
+    justify-content: flex-end;
+    justify-self: center;
+    font-size: 3.5rem;
+    color: white;
+    border-style: solid;
+    border-color: black;
+}

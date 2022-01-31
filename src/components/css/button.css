@@ -1,0 +1,23 @@
+.Button {
+  display: inline-flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: rgb(112, 73, 93);
+  color: white;
+}
+
+.Button[width="2"] {
+  width: 200px;
+}
+
+.Button[height="2"] {
+  grid-area: "equal";
+  width: 100px;
+  height: 180px;
+}
+
+.Large {
+  background-color: rgb(50, 32, 65);
+}
